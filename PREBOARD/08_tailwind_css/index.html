@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-white">
+    <main class="mx-auto flex min-h-screen max-w-5xl flex-col justify-center gap-8 px-6 py-12 md:flex-row md:items-center">
+      <section class="flex-1">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-cyan-300">Tailwind CSS</p>
+        <h1 class="text-4xl font-bold leading-tight md:text-6xl">Build fast UI with utility classes.</h1>
+        <p class="mt-5 text-lg text-slate-300">This page uses spacing, flexbox, colors, rounded corners, shadows, and responsive breakpoints.</p>
+        <button class="mt-6 rounded-xl bg-cyan-400 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300">Get Started</button>
+      </section>
+
+      <section class="grid flex-1 gap-4 sm:grid-cols-2">
+        <article class="rounded-2xl bg-slate-900 p-5 shadow-xl ring-1 ring-white/10">
+          <h2 class="text-xl font-semibold text-cyan-300">Responsive</h2>
+          <p class="mt-2 text-slate-300">Layout changes from one column to two columns on larger screens.</p>
+        </article>
+        <article class="rounded-2xl bg-slate-900 p-5 shadow-xl ring-1 ring-white/10">
+          <h2 class="text-xl font-semibold text-cyan-300">Utility First</h2>
+          <p class="mt-2 text-slate-300">Classes describe exactly what each element should look like.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
